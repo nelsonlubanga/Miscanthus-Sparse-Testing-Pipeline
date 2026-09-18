@@ -1,7 +1,0 @@
-Total tasks: 540  | parallel workers: 4 
-Failed tasks: 0 of 540 
-Elapsed: 2.7 min
-
-Saved: ../results/predictions/predictive_ability.csv ( 540 rows )
-Saved: ../results/predictions/predictive_ability_boxplot.png
-ALL DONE
