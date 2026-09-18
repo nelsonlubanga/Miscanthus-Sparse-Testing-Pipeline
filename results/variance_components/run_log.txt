@@ -1,0 +1,19 @@
+Total tasks: 45  | parallel workers: 4 
+Failed tasks: 0 of 45 
+
+=== Relative to M1: residual and environmental variance reduction (%), averaged over 5 reps ===
+DM : residual variance change M1->M3 = -49.6 %  |  environmental variance change M1->M3 = -11.6 %
+FW : residual variance change M1->M3 = -59.4 %  |  environmental variance change M1->M3 = -13.3 %
+MC : residual variance change M1->M3 = -47 %  |  environmental variance change M1->M3 = -19.3 %
+
+=== Per-rep reduction estimates (to gauge stability) ===
+DM residual reduction per rep (%): -48.7 -49.6 -51.2 -48.6 -49.6 
+DM environmental reduction per rep (%): -12.7 -18.1 -5.5 -10 -11.8 
+FW residual reduction per rep (%): -59.8 -59.8 -59.7 -59.1 -58.6 
+FW environmental reduction per rep (%): -9.8 -23.1 -0.6 -16.4 -15.3 
+MC residual reduction per rep (%): -47.9 -47.6 -46 -46.8 -46.7 
+MC environmental reduction per rep (%): -20 -15.1 -23.9 -14.9 -22.4 
+
+Saved: ../results/variance_components/variance_components.csv (mean of 5 reps)
+Saved: ../results/variance_components/variance_components_raw_reps.csv (all reps)
+Saved: ../results/variance_components/variance_components_stacked.png
