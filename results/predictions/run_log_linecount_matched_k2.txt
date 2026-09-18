@@ -1,0 +1,24 @@
+Total tasks: 2250  | parallel workers: 4 
+Failed tasks: 0 of 2250 
+Elapsed: 3.3 min
+
+Saved ( 2250 rows )
+
+=== Mean predictive ability by design (averaged over all env pairs, reps, traits, models) ===
+  design  s  n unique_lines total_plots   mean_PA
+1      A  0 20           40          40 0.4302922
+2      B 10 15           40          50 0.4413050
+3      C 20 10           40          60 0.4429083
+4      D 30  5           40          70 0.4379541
+5      E 40  0           40          80 0.4372531
+
+=== By trait ===
+  design        DM        FW        MC
+1      A 0.4763555 0.4506551 0.3638660
+2      B 0.4948524 0.4655928 0.3634697
+3      C 0.4887183 0.4577969 0.3822098
+4      D 0.4844525 0.4574302 0.3719796
+5      E 0.4921626 0.4610956 0.3585010
+
+Correlation between overlap level (s) and predictive ability, at FIXED unique-line count:
+0.343 
