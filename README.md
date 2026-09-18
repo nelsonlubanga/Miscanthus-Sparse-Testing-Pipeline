@@ -21,17 +21,6 @@ Scripts use `mclapply` for parallelism (fork-based; Linux/macOS only) and set
 Each script begins with `setwd()` to an absolute path; edit this to match
 where the pipeline is located before running.
 
-## Required raw inputs (not included in this folder)
-
-Script `00_prepare_combined_phenotypes.R` expects two raw files one directory
-above this pipeline folder:
-
-- `Original phenotypes.xlsx` (sheet `ABR33Data_ForNelson`) -- Aberystwyth
-- `JKI_Ger.csv` -- Braunschweig
-
-Place both alongside (one level above) this folder, or edit `RAW_UK_XLSX`
-and `RAW_JKI_CSV` at the top of script 00 to point to their actual location.
-
 ## Directory structure
 
 - `data/` -- inputs and intermediate data (marker matrix, genomic relationship
