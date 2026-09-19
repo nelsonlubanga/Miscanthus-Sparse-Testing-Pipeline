@@ -1,7 +1,7 @@
 # Miscanthus Sparse-Testing Pipeline
 
-Reproducible analysis pipeline for "Sparse testing and multi-environment
-genomic prediction improve selection efficiency in Miscanthus breeding."
+Reproducible analysis pipeline for "Sparse testing designs and
+multi-environment genomic prediction in Miscanthus breeding."
 Covers phenotype preparation, BLUE/heritability estimation, genomic
 relationship matrix construction, sparse-testing designs (D1-D6), CV1/CV2
 cross-validation, variance-component decomposition, and the line-count-matched
