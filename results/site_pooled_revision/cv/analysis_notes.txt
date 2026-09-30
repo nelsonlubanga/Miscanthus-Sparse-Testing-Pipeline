@@ -1,0 +1,7 @@
+CV1: genotypes held out across all environments. CV2: per-genotype observed cells assigned to distinct folds; at least one other environment remains in training.
+10 repeats x 5 folds; splits shared by models. Fold-level correlations are dependent.
+Fixed intercept; random PopGroup, environment and line; M2 adds genomic; M3 adds genomic-by-environment.
+All fits use 8000 iterations, 2000 burn-in, thinning 5. Variance traces retained in task checkpoints; fit completion does not prove convergence.
+Explicit shared-component priors use training data only. See script header for specification.
+Existing stage-1 BLUEs used without precision weights; this is second-stage BLUE validation, not a full plot-level refit within each fold.
+These runs differ from the original fixed-PopGroup analysis in CV2 assignment, priors and chain length; they are not a controlled fixed-versus-random comparison.

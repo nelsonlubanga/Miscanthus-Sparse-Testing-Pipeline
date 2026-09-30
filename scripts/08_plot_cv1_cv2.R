@@ -12,7 +12,7 @@
 ## =============================================================================
 
 rm(list = ls())
-setwd("/Users/nel6/Desktop/Documents/Miscathus_others/Sparse_testing/revision/Miscanthus_SparseTesting_Pipeline/scripts")
+setwd("/Users/nel6/Desktop/Documents/Miscathus_others/Sparse_testing/revision/Miscanthus Sparse Testing Pipeline/scripts")
 suppressMessages({
   library(dplyr)
   library(ggplot2)
@@ -21,8 +21,8 @@ suppressMessages({
 pa <- read.csv("../results/predictions/predictive_ability_cv1_cv2.csv", stringsAsFactors = FALSE)
 pa <- pa |> filter(!is.na(predictive_ability))
 
-env_short <- c("Aber-2015" = "Aber15", "Aber-2016" = "Aber16",
-               "Brau-2014" = "Brau14", "Brau-2015" = "Brau15", "Brau-2016" = "Brau16")
+env_short <- c("Aber-2015" = "ABR33-2015", "Aber-2016" = "ABR33-2016",
+               "Brau-2014" = "JKI-2014", "Brau-2015" = "JKI-2015", "Brau-2016" = "JKI-2016")
 pa$Environment <- factor(env_short[pa$Environment], levels = unname(env_short))
 pa$trait <- factor(pa$trait, levels = c("DM", "FW", "MC"))
 pa$model <- factor(pa$model, levels = c("M1", "M2", "M3"))
