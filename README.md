@@ -57,3 +57,14 @@ and must be run once per value before scripts 12-13.
 
 Scripts 03-13 depend on the outputs of earlier scripts in this table and
 must be run in order on a first pass.
+
+## Revision analyses
+
+- `scripts/site_pooled_blue_revision.R` -- site-year BLUE correlations and one
+  pooled DM BLUE per trial; `cv_pooled_trials_DM.R` and
+  `sparse25_pooled_trials_DM.R` generate the pooled-trial fold assignments.
+- `reviewer_DM_pipeline/` -- within-population-group prediction for DM
+  (objective iii); see its README.
+- `reviewer_FW_MC_pipeline/` -- the same for FW and MC, Monte Carlo and
+  convergence checks, and the corrected genomic relationship matrix used for
+  the variance components; see its README.
