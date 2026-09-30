@@ -1,0 +1,2 @@
+All checks passed.
+Undefined constant-prediction correlations: 240
