@@ -1,0 +1,16 @@
+Pooled CV: 300 fits and 600 scores checked; trial masking and recomputed correlations pass.
+# A tibble: 12 × 4
+   CV    Environment model mean_PA
+   <chr> <chr>       <chr>   <dbl>
+ 1 CV1   ABR33       M1      0.554
+ 2 CV1   ABR33       M2      0.582
+ 3 CV1   ABR33       M3      0.604
+ 4 CV1   JKI         M1      0.484
+ 5 CV1   JKI         M2      0.519
+ 6 CV1   JKI         M3      0.582
+ 7 CV2   ABR33       M1      0.625
+ 8 CV2   ABR33       M2      0.646
+ 9 CV2   ABR33       M3      0.678
+10 CV2   JKI         M1      0.574
+11 CV2   JKI         M2      0.595
+12 CV2   JKI         M3      0.654
