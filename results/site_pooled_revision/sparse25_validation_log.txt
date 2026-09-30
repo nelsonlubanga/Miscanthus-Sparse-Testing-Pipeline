@@ -1,0 +1,16 @@
+# A tibble: 12 × 3
+   CV        Environment mean_PA
+   <chr>     <chr>         <dbl>
+ 1 Overlap0  ABR33         0.574
+ 2 Overlap0  JKI           0.560
+ 3 Overlap10 ABR33         0.556
+ 4 Overlap10 JKI           0.525
+ 5 Overlap15 ABR33         0.562
+ 6 Overlap15 JKI           0.511
+ 7 Overlap20 ABR33         0.549
+ 8 Overlap20 JKI           0.566
+ 9 Overlap25 ABR33         0.560
+10 Overlap25 JKI           0.552
+11 Overlap5  ABR33         0.569
+12 Overlap5  JKI           0.580
+Sparse-25 PASS: 180 fits, 360 correlations, paired splits and exact training budgets verified.
