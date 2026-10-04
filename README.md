@@ -51,6 +51,7 @@ where the pipeline is located before running.
 | `11_fit_linecount_matched_designs.R` | `linecount_matched_predictive_ability_k<K_ENVS>.csv` | Supplementary Figure/Table S1 |
 | `12_summarize_linecount_matched.R` | `linecount_matched_supplementary/summary_table.csv` | Supplementary Table S1 |
 | `13_prepare_supplementary_materials.R` | `Supplementary_Figure_S1.png`, `Supplementary_Table_S1.csv` | Supplementary Figure/Table S1 |
+| `14_figure1_pca_and_blues.R` | `results/figure1/Figure1_PCA_and_BLUEs.png` | Figure 1 (PCA and BLUEs by population group, ANOVA/Tukey letters) |
 
 Script 11 takes `K_ENVS` (2, 3, or 4) as a parameter at the top of the file
 and must be run once per value before scripts 12-13.
