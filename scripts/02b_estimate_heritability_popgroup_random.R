@@ -1,6 +1,7 @@
 ## Heritability with population group fitted as random (per environment, ASReml):
 ## H2 = (Vpop + Vg)/(Vpop + Vg + Ve/r_bar) includes group differences;
 ## H2_within = Vg/(Vg + Ve/r_bar) excludes them and matches script 02 (group fixed).
+## genotype_fraction_total = Vg/(Vpop + Vg + Ve/r_bar) is the value reported in Table 4 (in parentheses).
 ## Run: Rscript scripts/02b_estimate_heritability_popgroup_random.R
 
 script_arg <- grep("^--file=", commandArgs(), value = TRUE)
