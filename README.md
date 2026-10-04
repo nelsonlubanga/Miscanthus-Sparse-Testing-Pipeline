@@ -63,6 +63,8 @@ must be run in order on a first pass.
 - `scripts/site_pooled_blue_revision.R` -- site-year BLUE correlations and one
   pooled DM BLUE per trial; `cv_pooled_trials_DM.R` and
   `sparse25_pooled_trials_DM.R` generate the pooled-trial fold assignments.
+- `scripts/02b_estimate_heritability_popgroup_random.R` -- per-environment H2 with population
+  group fitted as random, with (H2) and without (H2_within) the group variance.
 - `reviewer_DM_pipeline/` -- within-population-group prediction for DM
   (objective iii); see its README.
 - `reviewer_FW_MC_pipeline/` -- the same for FW and MC, Monte Carlo and

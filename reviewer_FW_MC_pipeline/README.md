@@ -16,6 +16,7 @@ Scripts take the trait and/or an output folder as command-line arguments.
 | `09_build_corrected_G.R` | G from correctly coded (-1/0/1) markers: `data/markers/Gmatrix_125_corrected.rda` |
 | `10_corrected_G_impact.R`, `11_corrected_G_siteyear_check.R` | Effect of the corrected G on predictive ability |
 | `12_variance_components_corrected_G.R`, `13_plot_variance_corrected_G.R` | Variance components and Figure 2 with the corrected G |
+| `14_variance_components_corrected_G_popgroup_random.R`, `15_plot_variance_corrected_G_popgroup_random.R` | As 12-13 with population group fitted as random (revised Figure 2) |
 
 MCMC checkpoints and chain-check `.rds` files are not tracked (see `.gitignore`);
 rerun the scripts to regenerate them.
